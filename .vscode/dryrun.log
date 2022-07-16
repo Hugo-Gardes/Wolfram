@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hugogardes/code ann 2/functional/wolfram_repo/Wolfram'
+rm -f wolfram
+stack build
+cp .stack-work/install/x86_64-linux-tinfo6/*/8.10.7/bin/wolfram-exe .
+mv wolfram-exe wolfram
+make: Leaving directory '/home/hugogardes/code ann 2/functional/wolfram_repo/Wolfram'
+ 
